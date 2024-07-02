@@ -1,7 +1,7 @@
-For Starting the entire setup need to be follow as this commands
+For Starting the entire setup needs to be follow as these commands
 
 
-After clone the whole project
+After cloning the whole project
 
 Client-
   1. npm i
@@ -12,5 +12,6 @@ Server-
   2. npm run dev
 
 Socket-
-  1.npm start
+  1. npm start
+  
  and add your database details instead of mine
