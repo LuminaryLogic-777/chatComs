@@ -20,7 +20,7 @@ app.get("/",(req,res)=>{
 
 const PORT = process.env.PORT || 5000; 
 const host = process.env.HOST || '0.0.0.0';
-const uri = process.env.MONGODB_URI || "mongodb+srv://sonaiclaymind:sonaiclaymind@cluster0.xcoluhw.mongodb.net/chatApp?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGODB_URI;
 
 mongoose.connect(uri)
     .then(() => console.log('Connected to MongoDB'))
